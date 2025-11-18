@@ -35,12 +35,15 @@ button{
 }
 /* * main */
 
-
+/* ? les comment li ki t3awdo  */
+p{
+    line-height: 2vw;
+    color: rgba(0, 0, 0, 0.551);
+}
 /* ^ hero-section */
 .hero-section{
     display: flex;
-    /* gap: 10px; */
-    /* background-color: rgba(250, 235, 215, 0.519); */
+    padding-left: 12vw;
 }
 /* ~ left-hero */
 .left-hero{
@@ -49,7 +52,6 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    padding-left: 12vw;
     gap: 5vw;
     
 }
@@ -57,7 +59,7 @@ button{
     width: 60%;
 }
 .left-hero p{
-    width: 75%;
+    width: 85%;
 }
 /* ~ right-hero */
 .right-hero{
@@ -81,4 +83,33 @@ button{
     position:absolute;
     right: -70px;
     top: -70px;    
+}
+/* ^ secound section */
+.secound-section{
+    display: grid;
+    gap: 10vw;
+    padding-inline: 12vw;
+    background-color: #f4f5f7;
+}
+.secound-section .type{
+    padding-top: 5vw;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1vw;
+}
+.secound-section .box{
+    display: flex;
+    gap: 2vw;
+}
+.secound-section .box .cart{
+    display: grid;
+    gap: 1vw;
+}
+.secound-section .box .cart h3{
+    text-transform: capitalize;
+}
+.secound-section .box .cart img{
+    width: 25%;
 }
