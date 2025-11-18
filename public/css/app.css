@@ -86,13 +86,14 @@ p{
 }
 /* ^ secound section */
 .secound-section{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     display: grid;
     gap: 10vw;
     padding-inline: 12vw;
     background-color: #f4f5f7;
 }
 .secound-section .type{
-    padding-top: 5vw;
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -112,4 +113,41 @@ p{
 }
 .secound-section .box .cart img{
     width: 25%;
+}
+/* ^ section three */
+.section-three{
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    padding-inline: 12vw;
+    display: grid;
+    gap: 3vw;
+}
+.section-three .box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2vw;
+}
+.section-three .box .cart{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.section-three .box .cart img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.section-three .box .cart span{
+    font-size: x-small;
+    color: rgba(0, 0, 0, 0.551);
+}
+.section-three .box .cart div{
+    padding: 2vw;
+    display: grid;
+    gap: 0.5vw;
+}
+.section-three .box .cart div p{
+line-height: normal;
 }
