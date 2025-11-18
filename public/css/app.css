@@ -10,6 +10,9 @@ header{
     align-items: center;
     padding: 2vw 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    z-index: 100;
 }
 header > div nav{
     display: flex;gap: 2vw;
@@ -29,4 +32,53 @@ button{
     border-radius: 5vw;
     border: none;
     color: white;
+}
+/* * main */
+
+
+/* ^ hero-section */
+.hero-section{
+    display: flex;
+    /* gap: 10px; */
+    /* background-color: rgba(250, 235, 215, 0.519); */
+}
+/* ~ left-hero */
+.left-hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 12vw;
+    gap: 5vw;
+    
+}
+.left-hero h1{
+    width: 60%;
+}
+.left-hero p{
+    width: 75%;
+}
+/* ~ right-hero */
+.right-hero{
+    width: 100%;
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-size:auto;
+    background-repeat: no-repeat; 
+    background-position: left ;
+    height: 100vh;
+    padding-right: 150px;
+}
+.right-hero .phons{
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+    right: -150px;
+    /* bottom: 70px; */
+}
+.right-hero .sticky{
+    width: 100%;
+    position:absolute;
+    right: -70px;
+    top: -70px;    
 }
