@@ -32,6 +32,7 @@ button{
     border-radius: 5vw;
     border: none;
     color: white;
+    cursor: pointer;
 }
 /* * main */
 
@@ -150,4 +151,51 @@ p{
 }
 .section-three .box .cart div p{
 line-height: normal;
+}
+
+/* ! footer */
+footer{
+    background-color: #2d314e;
+    padding: 3vw 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+footer .left {
+    display: flex;
+    gap: 8vw;
+}
+footer .left .left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+footer .left .left-side nav{
+    display: flex;
+    gap: 2vw;
+}
+footer .left .right-side nav {
+    display: flex;
+    gap: 3vw;
+    align-items: start;
+    width: 100%;
+}
+footer .left .right-side div a{
+    text-decoration: none;
+    color: #f4f5f7;
+    text-transform: capitalize;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vw;
+    color: #f4f5f744;
+}
+.right div {
+    display: flex;
+    justify-content: end;
 }
